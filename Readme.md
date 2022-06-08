@@ -1,0 +1,1 @@
+Aqui se encotrará todos os projetos que farei e que julgo interessante apresentar em um local de maneira organizada. Assim, acredito que será mais fácil avaliar meu trabalho e minhas habilidades, além de ser um local para eu mesmo apreciar minhas obras.
