@@ -2,6 +2,7 @@ body {
     background-color: #219ebc;
     font-size: 18px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 3%;
 }
 
 a {
@@ -28,19 +29,21 @@ em {
     font-weight: 800;
 }
 
-#descricao {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    text-align: right;
-}
-
 #habilidades {
-    padding-top: 425px;
     margin-inline: 150px;
 }
 
 div p {
     text-align: center;
+}
+
+div {
+    border: 1px solid black;
+}
+
+div div {
+    height: 450px;
+    position: relative;
 }
 
 div img {
@@ -52,11 +55,12 @@ div img {
 
 div .descricao {
     position: absolute;
-    width: 300px;
-    margin: 200px;
-    padding: 200px;
-    top: 100px;
-    left: 100px;
+    width: 275px;
+    left: 60%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: right;
+    float: right;
 }
 
 div * {
