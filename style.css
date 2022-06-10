@@ -28,8 +28,41 @@ em {
     font-weight: 800;
 }
 
-#descrição {
+#descricao {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 17px;
-    text-align: left;
+    font-size: 20px;
+    text-align: right;
+}
+
+#habilidades {
+    padding-top: 425px;
+    margin-inline: 150px;
+}
+
+div p {
+    text-align: center;
+}
+
+div img {
+    position: absolute;
+    width: 400px;
+    border-radius: 25% 50% 10% 10%;
+    background-color: yellow;
+}
+
+div .descricao {
+    position: absolute;
+    width: 300px;
+    margin: 200px;
+    padding: 200px;
+    top: 100px;
+    left: 100px;
+}
+
+div * {
+    padding: 20px;
+}
+
+ol li:nth-of-type(odd):hover {
+    color: orange;
 }
