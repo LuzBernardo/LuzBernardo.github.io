@@ -107,7 +107,7 @@ function inputSpace() {
   caixaDeInput.type = 'number';
   caixaDeInput.min = '1';
   caixaDeInput.step = '1';
-  caixaDeInput.placeholder = 'Escreve o tamanho do quadro de pixels';
+  caixaDeInput.placeholder = 'Escreva o tamanho do quadro de pixels';
   botaoModificador.id = 'generate-board';
   botaoModificador.innerText = 'VQV';
   divDoInput.append(caixaDeInput);

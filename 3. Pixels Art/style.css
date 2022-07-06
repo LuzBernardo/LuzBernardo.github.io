@@ -7,6 +7,8 @@ body {
   width: auto;
   height: 100%;
   position: relative;
+  text-align: center;
+  background-color: lightgreen;
 }
 
 #title {
@@ -17,7 +19,8 @@ body {
 #cabecalho {
   border: 2px solid black;
   position: relative;
-  justify-content: center;
+  width: 80%;
+  margin: 20px auto;
 }
 
 #color-palette {
