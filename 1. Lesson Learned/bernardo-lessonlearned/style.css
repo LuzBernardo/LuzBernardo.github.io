@@ -1,0 +1,163 @@
+body {
+  background-color: rgb(253, 251, 251);
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#cabecalho {
+    position: fixed;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+header {
+  background-color: darkgreen;
+  color: white;
+  padding: 1px;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav {
+  position: relative;
+  height: 30px;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+  padding-top: 5px;
+  background-color: green;
+}
+
+nav a {
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+}
+
+nav ul a:nth-last-of-type(1) {
+  position: absolute;
+  left: 75%;
+}
+
+nav ul a:nth-last-of-type(2) {
+  position: absolute;
+  left: 55%;
+}
+
+nav ul a:nth-last-of-type(3) {
+  position: absolute;
+  left: 30%;
+}
+
+nav ul a:nth-last-of-type(4) {
+  position: absolute;
+  left: 10%;
+}
+
+div {
+  position: relative;
+}
+
+img {
+  display: inline-block;
+  margin: 5px;
+  border-radius: 30% 30% 25% 50%;
+  padding: 5px;
+  background-color: blue;
+  width: 200px;
+}
+
+div section {
+  position: absolute;
+  display: inline-block;
+  left: 25%;
+  text-align: center;
+  height: 325px;
+  margin: 10px;
+  padding-left: 15px;
+}
+
+div section h2,
+div section p {
+  margin-inline: auto;
+}
+
+.lado-esquerdo {
+  border: 2px solid red;
+  display: inline-block;
+  width: 48%;
+  text-align: center;
+  height: 230px;
+  margin-left: 5px;
+}
+
+aside a {
+  color: blue;
+}
+
+aside a:hover {
+  background-color: yellow;
+}
+
+.lado-direito {
+  position: absolute;
+  border: 2px solid blue;
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  height: 230px;
+  line-height: 20px;
+}
+
+article h3,
+article p {
+  margin: 10px;
+}
+
+section {
+  border: 2px solid orange;
+  margin-inline: 5px;
+}
+
+section h3 {
+  text-align: center;
+}
+
+table {
+  border-spacing: 0px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td,
+th {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+table th:nth-last-of-type(1) {
+  width: 200px;
+}
+
+table th:nth-last-of-type(2) {
+  width: 200px;
+}
+
+footer {
+  background-color: darkgreen;
+  padding: 0px;
+  margin-block: 30px;
+}
+
+footer p {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}

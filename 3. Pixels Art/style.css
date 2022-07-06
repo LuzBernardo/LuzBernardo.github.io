@@ -1,0 +1,68 @@
+html {
+  height: 95%;
+}
+
+body {
+  margin: 0;
+  width: auto;
+  height: 100%;
+  position: relative;
+}
+
+#title {
+  justify-content: center;
+  text-align: center;
+}
+
+#cabecalho {
+  border: 2px solid black;
+  position: relative;
+  justify-content: center;
+}
+
+#color-palette {
+  justify-content: center;
+}
+
+.color {
+  display: inline-block;
+  justify-content: center;
+}
+
+section {
+  height: 80%;
+}
+
+#btn-reset {
+  position: relative;
+}
+
+#clear-board {
+  text-align: center;
+  right: auto;
+  left: auto;
+}
+
+#pixel-board {
+  width: 210px;
+  height: 210px;
+  margin-block: 50px;
+  margin-top: 10px;
+  margin-inline: auto;
+  position: relative;
+  line-height: 0;
+}
+
+.pixel {
+  display: inline-block;
+  margin-inline: auto;
+  margin-block: 0;
+}
+
+#board-size {
+  display: inline-block;
+}
+
+#generate-board {
+  display: inline-block;
+}
